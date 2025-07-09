@@ -5,7 +5,7 @@ title  {
   font-weight: bold;
   font-size: 48px;
 }
-head  {
+head, h1  {
   color: #fffef1;
   background-color: #1f1f1f;
 }
