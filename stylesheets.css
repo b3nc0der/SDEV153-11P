@@ -1,7 +1,7 @@
 title  {
   display: block;
   background-color: "#1F1F1F";
-  text-align: "left";
+  text-align: "center";
   font-weight: bold;
   font-size: 48px;
 }
@@ -15,4 +15,7 @@ html, body {
 }
 body {
   color: #1f1f1f;
+}
+a:visited {
+  color: 
 type
