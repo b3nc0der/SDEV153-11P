@@ -5,9 +5,9 @@ html, body {
   margin: 0;
 }
 body {
-  color: #1f1f1f;
-  background: black;
-  font-family: Times New Roman;
+  color: #fffef1;
+  background: #1f1f1f;
+  font-family: helvetica;
   font-size: 70%;
 }
 a {
@@ -25,7 +25,7 @@ header {
   height: 230px;
   padding: 20px 0 70px 0;
   background: black;
-  background-image: url(bcamp01.jpg');
+  background-image: url('bcamp01.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right; 
@@ -37,6 +37,6 @@ title  {
   font-size: 48px;
 }
 head, h1  {
-  color: white;
-  background-color: black;
+  color: #fffef1;
+  background-color: #1f1f1f;
 }
