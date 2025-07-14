@@ -1,3 +1,34 @@
+<!doctype css>
+
+html, body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  color: #1f1f1f;
+  background: black;
+  font-family: Times New Roman;
+  font-size: 70%;
+}
+a {
+  color: #FF00FF;
+  text-decoration: none;
+}
+a:visited {
+  color: #9400D3;
+}
+a:hover, a:focus {
+  color: #6A5ACD;
+  text-decoration: underline;
+}
+header {
+  height: 230px;
+  padding: 20px 0 70px 0;
+  background: black;
+  background-image: url(bcamp01.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right; 
 title  {
   display: block;
   background-color: "#1F1F1F";
@@ -9,13 +40,3 @@ head, h1  {
   color: white;
   background-color: black;
 }
-html, body {
-  padding: 0;
-  margin: 0;
-}
-body {
-  color: #1f1f1f;
-}
-a:visited {
-  color: 
-type
