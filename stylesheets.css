@@ -25,7 +25,7 @@ header {
   height: 230px;
   padding: 20px 0 70px 0;
   background: black;
-  background-image: url(Bcamp03.png);
+  //background-image: url(Bcamp03.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
