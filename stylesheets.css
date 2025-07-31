@@ -9,6 +9,7 @@ body {
   background: #1f1f1f;
   font-family: arial, helvetica, sans-serif;
   font-size: 70%;
+  height: 70vh;
 }
 a {
   color: #FF00FF;
@@ -22,7 +23,7 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 header {
-  height: 230px;
+  height: 20vh;
   padding: 20px 0 70px 0;
   background: black;
   background-image: url(.png);
@@ -73,6 +74,7 @@ footer {
   padding: 10px;
   text-align: center;
   color: fffef1;
+  height: 10vh;
 }
 @media (max-width: 600px) {
   nav, article {
