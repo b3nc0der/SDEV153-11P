@@ -7,7 +7,7 @@ html, body {
 body {
   color: #fffef1;
   background: #1f1f1f;
-  font-family: helvetica;
+  font-family: arial, helvetica, sans-serif;
   font-size: 70%;
 }
 a {
@@ -29,6 +29,7 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
+}
 title  {
   display: block;
   background-color: "#1F1F1F";
@@ -40,37 +41,42 @@ head, h1  {
   color: #fffef1;
   background-color: #1f1f1f;
 }
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+nav {
+  float: left;
+  width: 20%;
+  height: 100vh; 
+  background: #1f1f1f;
+  padding: 20px;
 }
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+nav ul {
+  list-style-type: none;
+  padding: 0;
 }
-.sidenav a:hover {
-  color: #f1f1f1;
+article {
+  float: left;
+  padding: 20px;
+  width: 80%;
+  background-color: #1f1f1f;
+  height: 100vh;
 }
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+section::after {
+  content: "";
+  display: table;
+  clear: both;
 }
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+table, th, td {
+  border: 1px solid black;
+  color: #fffef1;
+}
+footer {
+  background-color: #1f1f1f;
+  padding: 10px;
+  text-align: center;
+  color: fffef1;
+}
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
 }
