@@ -47,9 +47,9 @@ head, h1  {
   background-color: #1f1f1f;
 }
 nav {
-  float: left;
+  float: none;
   font-size: 18px;
-  height: 80vh; 
+   
   background: #1f1f1f;
   padding: 20px;
 }
