@@ -7,17 +7,60 @@
     <title>
       Terms and Conditions
     </title>
+    <style>
+		  body {
+			  font-family: arial, helvetica, sans-serif;
+		  }
+		  .sidenav {
+			  height: 100%;
+			  width: 200px;
+			  position: fixed;
+			  z-index: 1;
+			  top: 0;
+			  left: 0;
+			  background-color: #1f1f1f;
+			  overflow-x: hidden;
+			  padding-top: 20px;
+		  }
+		  .sidenav a {
+			  padding: 6px 6px 6px 32px;
+			  text-decoration: none;
+			  font-size: 25px;
+			  color: #FF00FF;
+			  display: block;
+		  }
+		  .sidenav a:hover {
+			  color: ##6A5ACD;
+		  }
+		  .main {
+			  margin-left: 200px; /* Same as the width of the sidenav */
+		  }
+	@media screen and (max-height: 450px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-size: 18px;}
+	}
+	</style>
+
   </head>
-  <header>
-      <nav>
-        <a href="index.html"> Home </a>
-        <a href="about.html"> About </a>
-        <a href="contact.html"> Contact Me </a>
-        <a href="#">Terms of Services</a>
-      </nav>
-       </header>
+  <header></header>
     <br />
   <body>
+    <div class="sidenav">
+  <a href="index.html"> <img src="bc01.png" alt="BC logo" style="width:42px;height:42px;"></a>
+				<a href="index.html"> Home </a>
+					<a href="about.html"> About </a>
+					<a href="workhistory.html">Pharmacy Operations Manager</a>
+					<a href="workhistory2.html">Certified Senior Pharmacy Technician</a>
+					<a href="workhistory3.html">Customer Service Associate</a>
+					<a href="workhistory4.html">Shift Lead</a>
+					<a href="#">Education</a>
+	<a href="contact.html"> Contact Me </a>
+					<a href="#">Terms of Services</a>
+
+</div>
+
+<div class="main">
+
     <h1>Terms and Conditions</h1>
       <p>Last updated: July 14, 2025</p>
       <p>Please read these terms and conditions carefully before using Our Service.</p>
@@ -107,5 +150,6 @@
     <li>By email: it.bencampbell@gmail.com</li>
   </ul>
     <p style="text-align: center"><a href="index.html">Home</a></p>
+</div>
   </body>
 </html>
