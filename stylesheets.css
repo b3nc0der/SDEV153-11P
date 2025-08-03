@@ -10,13 +10,12 @@ header {
   font-family: arial, helvetica, sans-serif;
   font-size: 80px;
   text-align: center;
-  height: 10vh
+  height: 20vh
   }
 body {
   color: #fffef1;
   background: #1f1f1f;
   font-family: arial, helvetica, sans-serif;
-  font-size: 70%;
   height: 70vh;
 }
 footer {
