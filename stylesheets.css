@@ -57,18 +57,6 @@ nav ul {
   list-style-type: none;
   padding: 0;
 }
-article {
-  float: left;
-  padding: 20px;
-  width: 80%;
-  background-color: #1f1f1f;
-  height: 100vh;
-}
-section::after {
-  content: "";
-  display: table;
-  clear: both;
-}
 table, th, td {
   border: 1px solid black;
   color: #fffef1;
