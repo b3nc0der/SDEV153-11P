@@ -5,8 +5,59 @@
               <link rel="stylesheet" href=stylesheets.css>
                 <meta charset="UTF-8"/>
                 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+             <style>
+		  body {
+			  font-family: arial, helvetica, sans-serif;
+		  }
+		  .sidenav {
+			  height: 100%;
+			  width: 200px;
+			  position: fixed;
+			  z-index: 1;
+			  top: 0;
+			  left: 0;
+			  background-color: #1f1f1f;
+			  overflow-x: hidden;
+			  padding-top: 20px;
+		  }
+		  .sidenav a {
+			  padding: 6px 6px 6px 32px;
+			  text-decoration: none;
+			  font-size: 25px;
+			  color: #FF00FF;
+			  display: block;
+		  }
+		  .sidenav a:hover {
+			  color: ##6A5ACD;
+		  }
+		  .main {
+			  margin-left: 200px; /* Same as the width of the sidenav */
+		  }
+	@media screen and (max-height: 450px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-size: 18px;}
+	}
+	</style>
+
          </head>
          <body>
+                 		
+<div class="sidenav">
+  <a href="index.html"> <img src="bc01.png" alt="BC logo" style="width:42px;height:42px;"></a>
+				
+					<a href="about.html"> About </a>
+					<a href="workhistory.html">Pharmacy Operations Manager</a>
+					<a href="workhistory2.html">Certified Senior Pharmacy Technician</a>
+					<a href="workhistory3.html">Customer Service Associate</a>
+					<a href="workhistory4.html">Shift Lead</a>
+					<a href="education.html">Education</a>
+	<a href="contact.html"> Contact Me </a>
+					<a href="termsservice.html">Terms of Services</a>
+
+</div>
+
+<div class="main">
+
              <h1>Work History</h1>
              <h2>Walgreens</h2>
              <h3>Shift Lead (SFL)</h3>
@@ -135,11 +186,7 @@ Reports disciplinary issues and customer complaints to management.
 </li>
 </ul>
 </p>
-             <p style="text-align: center"><a href="index.html">Home</a></p>
- <p style="text-align: center"><a href="workhistory.html">Walgreens Pharmacy Operations Manager</a></p>
-            <p style="text-align: center"><a href="workhistory2.html">Walgreens Certified Senior Pharmacy Technician</a></p>
-      <p style="text-align: center"><a href="workhistory3.html">Walgreens Customer Service Associate</a></p>
-      <p style="text-align: center"><a href="workhistory4.html">Walgreens Shift Lead</a></p>
-      <p style="text-align: center"><a href="education.html">Education</a></p>
+</div>
          </body>
+        <footer></footer>
 </html>
