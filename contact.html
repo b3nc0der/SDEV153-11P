@@ -6,28 +6,63 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact Me</title>
   <link rel="stylesheet" href=stylesheets.css>
+	<style>
+		  body {
+			  font-family: arial, helvetica, sans-serif;
+		  }
+		  .sidenav {
+			  height: 100%;
+			  width: 200px;
+			  position: fixed;
+			  z-index: 1;
+			  top: 0;
+			  left: 0;
+			  background-color: #1f1f1f;
+			  overflow-x: hidden;
+			  padding-top: 20px;
+		  }
+		  .sidenav a {
+			  padding: 6px 6px 6px 32px;
+			  text-decoration: none;
+			  font-size: 25px;
+			  color: #FF00FF;
+			  display: block;
+		  }
+		  .sidenav a:hover {
+			  color: ##6A5ACD;
+		  }
+		  .main {
+			  margin-left: 200px; /* Same as the width of the sidenav */
+		  }
+	@media screen and (max-height: 450px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-size: 18px;}
+	}
+	</style>
+
 </head>
 <header>
 </header>
+<body>
+    		
+<div class="sidenav">
+  <a href="index.html"> <img src="bc01.png" alt="BC logo" style="width:42px;height:42px;"></a>
+				<a href="index.html"> Home </a>
+					<a href="about.html"> About </a>
+					<a href="contact.html"> Contact Me </a>
+					<a href="termsservice.html">Terms of Services</a>
+				<a href="workhistory.html">Pharmacy Operations Manager</a>
+					<a href="workhistory2.html">Certified Senior Pharmacy Technician</a>
+					<a href="workhistory3.html">Customer Service Associate</a>
+					<a href="workhistory4.html">Shift Lead</a>
+					<a href="#">Education</a>
+	<a href="contact.html"> Contact Me </a>
+					<a href="termsservice.html">Terms of Services</a>
 
-<section>
-  <nav>
-    <ul>
-      <li><a href="index.html"> Home </a></li>
-      <li><a href="workhistory.html">Since April 2025</a></li>
-      <li><a href="workhistory2.html">From July 2019 to April 2025</a></li>
-      <li><a href="workhistory3.html">From May 2019 to July 2019</a></li>
-      <li><a href="workhistory4.html">From September 2012 to May 2019</a></li>
-      <li><a href="education.html">Education</a></li>
-      <li><a href="about.html"> About </a></li>
-      <li><a href="contact.html"> Contact Me </a></li>
-      <li><a href="termsservice.html">Terms of Services</a></li>
-    </ul>
-  </nav>
-</section>
-<article>
+</div>
 
-   <table>
+<div class="main">
+<table>
       <caption><h1>Contact Me</h1></caption>
       <tr>
          <th>By Phone</th>
@@ -38,6 +73,6 @@
          <td><a href="mailto:bcampbell16@ivytech.edu">bcampbell16@ivytech.edu</a></td>
       </tr>
    </table>
-</article>
+</div>
 </body>
 </html>
