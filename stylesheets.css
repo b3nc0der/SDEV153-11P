@@ -8,7 +8,7 @@ header {
   padding: 20px 0 70px 0;
   background: #1f1f1fk;
   font-family: arial, helvetica, sans-serif;
-  font-size: 100px;
+  font-size: 80px;
   text-align: center;
   }
 body {
@@ -17,6 +17,13 @@ body {
   font-family: arial, helvetica, sans-serif;
   font-size: 70%;
   height: 70vh;
+}
+footer {
+  background-color: #1f1f1f;
+  padding: 10px;
+  text-align: center;
+  color: fffef1;
+  height: 10vh;
 }
 a {
   color: #FF00FF;
@@ -66,13 +73,6 @@ section::after {
 table, th, td {
   border: 1px solid black;
   color: #fffef1;
-}
-footer {
-  background-color: #1f1f1f;
-  padding: 10px;
-  text-align: center;
-  color: fffef1;
-  height: 10vh;
 }
 @media (max-width: 600px) {
   nav, article {
