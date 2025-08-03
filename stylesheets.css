@@ -8,12 +8,8 @@ header {
   padding: 20px 0 70px 0;
   background: #1f1f1fk;
   font-family: arial, helvetica, sans-serif;
-  font-size: 75px;
-  background-image: url("bc01.png");
-  margin-left: 80px;
-  background-repeat: no-repeat;
-  background-position: left top;
-  background-attachment: fixed;
+  font-size: 150px;
+  text-align: center;
   }
 body {
   color: #fffef1;
