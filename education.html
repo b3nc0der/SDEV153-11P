@@ -1,27 +1,61 @@
 <!doctype html>
 <html lang="en-us">
-  <head>
-    <title> Ben's Education. </title>
-    <link rel="stylesheet" href=stylesheets.css>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
-  <body>
-    <header>
-			<nav>
-				<a href="index.html"> <img src="bc01.png" alt="BC logo" width="20" height="100"></a>
-				<p><a href="index.html"> Home </a> |
-					<a href="about.html"> About </a> |
-					<a href="contact.html"> Contact Me </a> |
-					<a href="termsservice.html">Terms of Services</a></p>
-				<p><a href="workhistory.html">Pharmacy Operations Manager</a> |
-					<a href="workhistory2.html">Certified Senior Pharmacy Technician</a> |
-					<a href="workhistory3.html">Customer Service Associate</a> |
-					<a href="workhistory4.html">Shift Lead</a> |
-					<a href="#">Education</a></p>
-			</nav>
-		</header>
-    <br />
+	<head>
+		<title> Ben's Education. </title>
+	<link rel="stylesheet" href=stylesheets.css>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		  body {
+			  font-family: arial, helvetica, sans-serif;
+		  }
+		  .sidenav {
+			  height: 100%;
+			  width: 200px;
+			  position: fixed;
+			  z-index: 1;
+			  top: 0;
+			  left: 0;
+			  background-color: #1f1f1f;
+			  overflow-x: hidden;
+			  padding-top: 20px;
+		  }
+		  .sidenav a {
+			  padding: 6px 6px 6px 32px;
+			  text-decoration: none;
+			  font-size: 25px;
+			  color: #fffef1;
+			  display: block;
+		  }
+		  .sidenav a:hover {
+			  color: #f1f1f1;
+		  }
+		  .main {
+			  margin-left: 200px; /* Same as the width of the sidenav */
+		  }
+	@media screen and (max-height: 450px) {
+		.sidenav {padding-top: 15px;}
+		.sidenav a {font-size: 18px;}
+	}
+	</style>
+	</head>
+	<body>
+    		
+<div class="sidenav">
+  <a href="#"> <img src="bc01.png" alt="BC logo" width="20" height="100"></a>
+				<a href="#"> Home </a>
+					<a href="about.html"> About </a>
+					<a href="contact.html"> Contact Me </a>
+					<a href="termsservice.html">Terms of Services</a>
+				<a href="workhistory.html">Pharmacy Operations Manager</a>
+					<a href="workhistory2.html">Certified Senior Pharmacy Technician</a>
+					<a href="workhistory3.html">Customer Service Associate</a>
+					<a href="workhistory4.html">Shift Lead</a>
+					<a href="education.html">Education</a>
+
+</div>
+
+<div class="main">
     <p>
       <h1>Education</h1>
       <h2>Associate in Business Administration</h2>
@@ -63,5 +97,6 @@
       <h4>December 2021 to Present</h4>
       <a href="https://www.pharmacist.com/">APha</a>
     </p>
+</div>
   </body>
 </html>
