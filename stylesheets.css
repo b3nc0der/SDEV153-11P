@@ -21,7 +21,7 @@ footer {
   background-color: #1f1f1f;
   padding: 10px;
   text-align: center;
-  color: fffef1;
+  color: #fffef1;
   height: 10vh;
 }
 a {
@@ -37,8 +37,8 @@ a:hover, a:focus {
 }
 title  {
   display: block;
-  background-color: "#1F1F1F";
-  text-align: "center";
+  background-color: #1F1F1F;
+  text-align: center;
   font-weight: bold;
   font-size: 48px;
 }
